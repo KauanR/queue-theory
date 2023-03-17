@@ -1,8 +1,22 @@
+import { useState } from 'react';
+import { Inputs } from './constants';
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import { Inputter } from './components';
+import customTheme from './constants/custom-theme';
 import './App.scss';
 
 function App() {
+
+    const [inputs, setInputs] = useState<Inputs | null>(null);
+
     return (
-        <h1>Teoria das Filas</h1>
+        <ThemeProvider theme={customTheme}>
+            { !inputs
+                ? <Inputter onSubmit={val => setInputs(val)} />
+                : <div></div>
+            }
+            <CssBaseline />
+        </ThemeProvider>
     );
 }
 
