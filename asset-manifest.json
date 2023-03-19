@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/queue-theory/static/css/main.19c195d5.css",
+    "main.js": "/queue-theory/static/js/main.c479113f.js",
+    "static/js/787.a437f32e.chunk.js": "/queue-theory/static/js/787.a437f32e.chunk.js",
+    "index.html": "/queue-theory/index.html",
+    "main.19c195d5.css.map": "/queue-theory/static/css/main.19c195d5.css.map",
+    "main.c479113f.js.map": "/queue-theory/static/js/main.c479113f.js.map",
+    "787.a437f32e.chunk.js.map": "/queue-theory/static/js/787.a437f32e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19c195d5.css",
+    "static/js/main.c479113f.js"
+  ]
+}
