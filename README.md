@@ -1,4 +1,4 @@
-# Simulation Table
+# Queue Theory
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/KauanR/queue-theory/blob/main/README.md)
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/KauanR/queue-theory/blob/main/README.pt-br.md)
 
