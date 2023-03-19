@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Inputs } from './constants';
 import { CssBaseline, ThemeProvider } from '@mui/material';
-import { Inputter } from './components';
+import { Inputter, Result } from './components';
 import customTheme from './constants/custom-theme';
 import './App.scss';
 
@@ -13,7 +13,7 @@ function App() {
         <ThemeProvider theme={customTheme}>
             { !inputs
                 ? <Inputter onSubmit={val => setInputs(val)} />
-                : <div></div>
+                : <Result inputs={inputs} onClear={() => setInputs(null)} />
             }
             <CssBaseline />
         </ThemeProvider>

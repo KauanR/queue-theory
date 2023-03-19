@@ -1,0 +1,15 @@
+#result-averages {
+    width: max-content;
+    margin: 0 auto;
+
+    div.MuiCardContent-root {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 1rem;
+
+        :nth-child(4n) {
+            grid-column: 2fr;
+        }
+    }
+}
